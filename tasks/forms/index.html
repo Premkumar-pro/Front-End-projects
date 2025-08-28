@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <img src="./images/header.png" alt="header image" width="100%" >
+    <hr>
+    <fieldset>
+        <legend>
+            <h3>Application Details</h3>
+        </legend>
+        <form action="example.html" method="get">
+          <table borrder="1" cellpadding="5" cellspacing="0">
+            <tr align="left">
+                <td width="500">
+
+                    <label for="name">Name:<sup>*</sup></label>
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                </td>
+                <td width="500">
+                    <label for="name">Father/ Guardian's Name:<sup>*</sup></label>
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                </td>
+                
+            </tr>
+            <tr align="left">
+                <td width="500">
+                    <label for="name">Date:<sup>*</sup></label>
+                    <input type="date" name="name" placeholder="Enter your name" required>
+                </td>
+                <td width="500">
+                    <label for="name">Gender:<sup>*</sup></label>
+                    <label for="female">Female</label>
+                    <input type="radio" name="name" placeholder="Enter your name" value="female" id="female">
+                    <label for="male">Male</label>
+                    <input type="radio" name="name" placeholder="Enter your name" value="femaile" id="male" required>
+                </td>
+                
+            </tr>
+            <tr align="left">
+                 <td width="500">
+                    <label for="whatsapp">Whatsapp No:<sup>*</sup></label>
+                    <input type="tel" name="whatsapp" placeholder="Enter your number" required>
+                </td>
+                 <td width="500">
+                    <label for="name"></label>
+                    <label for="aadhar">Aadhar No:<sup>*</sup></label>
+                    <input type="tel" name="aadhar" placeholder="Aadhar No" >
+                </td>
+                
+            </tr>
+            <tr align="left">
+                 <td>
+                    <label for="file">photo:<sup>*</sup></label>
+                    <input type="file" name="file" placeholder="Enter your name" required>
+                </td>
+                 <td>
+                    <label for="email">Email:<sup>*</sup></label>
+                    <input type="email" name="email" placeholder="Enter your name" required>
+                </td>
+                
+            </tr>
+         </table>
+         
+         
+    </fieldset>
+
+    <!-- ------------------------------------second field--- -->
+     <fieldset>
+        <legend><h3>Residential Address Details</h3></legend>
+        <table>
+            <tr align="left">
+                <td>
+                    <label for="address">Applicant's Address</label>
+                    <textarea name="address" rows="4" cols="50" placeholder="Enter your address" required></textarea>
+                </td>
+                <td></td>
+            </tr>
+            <tr align="left">
+                <td>
+                    <label for="city">City:</label>
+                    <select>
+                        <option value="select">Select</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="bangalore">Bangalore</option>
+                        <option value="chennai">Chennai</option>
+                        <option value="kolkata">Kolkata</option>
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr align="left">
+                <td>
+                    <label for="pincode" required>Pincode:</label>
+                    <input
+                </td>
+
+                <td></td>
+            </tr>
+        </table>
+     </fieldset>
+
+
+
+    <!-- ------------------------------------thrid field--- -->
+     <fieldset>
+        <legend><h3>Pass Type Details:</h3></legend>
+        <table cellpadding="5" cellspacing="0">
+        <tr align="left">
+            <td >
+                <lable for="city">City:<sup>*</sup></lable>
+                <input type="text" name="city" placeholder="Enter your city" width="200" required>
+            </td>
+        </tr>
+        <tr align="left">
+            <td>
+                <label for="pass type">Pass Type:</label>
+                <select>
+                    <option value="select">Select</option>
+                    <option value="daily">Daily Pass</option>
+                    <option value="weekly">Weekly Pass</option>
+                    <option value="monthly">Monthly Pass</option>
+                    <option value="yearly">Yearly Pass</option>
+                </select>
+            </td>
+        </tr>
+     </table>
+     </fieldset>
+
+     <!-- ------------------------------------fouth field---- -->
+<fieldset>
+    <legend><h3>Payment Details:</h3></legend>
+    <table  cellpadding="5" cellspacing="0">
+        <tr align="left">
+            <td>
+                <label for="payment method">Payment Method:</label>
+                <select>
+                    <option value="select">Select</option>
+                    <option value="credit card">Credit Card</option>
+                    <option value="debit card">Debit Card</option>
+                    <option value="net banking">Net Banking</option>
+                    <option value="upi">UPI</option>
+                </select>
+            </td>
+        </tr>
+        <tr align="left">
+            <td>
+                <label for="delivery mode">Pass Delivery Mode:</label>
+                <select>
+                    <option value="select">Select</option>
+                    <option value="email">Email</option>
+                    <option value="sms">SMS</option>
+                    <option value="physical">Physical Copy</option>
+            </td>
+        </tr>
+        <tr align="left">
+            <td width="500">
+                <label for="collect">Center at Which You Want To Collect Pass</label>
+                <select>
+                    <option value="select">Select</option>
+                    <option value="center1">Center 1</option>
+                    <option value="center2">Center 2</option>
+                    <option value="center3">Center 3</option>
+                </select>
+            </td>
+        </tr>
+
+    </table>
+</fieldset>
+<br>
+<center>
+            <img src="./images/lower.png" alt="Captcha Image" width="200" />
+            <br>
+            <input type="submit" value="Submit"></center>
+    </form>
+
+     
+
+
+
+</body>
+</html>
